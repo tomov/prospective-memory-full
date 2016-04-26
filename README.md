@@ -1,0 +1,3 @@
+This is all the final code for the Prospective Memory Project from 2014 -- for the simulations, and to generate the figures.
+
+Files are self-explanatory. Jk I'll add some real instructions as soon as I figure out wtf I was doing back then...
