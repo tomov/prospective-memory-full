@@ -1,4 +1,4 @@
-function plot_all_conditions_exp3( stats, ymin, ymax, slope, intercept, show_legend)
+function plot_all_conditions_exp4( stats, ymin, ymax, slope, intercept, show_legend)
 %UNTITLED9 Summary of this function goes here
 %   Detailed explanation goes here
 

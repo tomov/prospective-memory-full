@@ -20,7 +20,19 @@ where
 
 
 
+%{
     startpar = [1  0.5   1    0.5, ...      % focal, low emph     % exp1_v16, exp2_v19
+                1  0.6    1    0.4, ...    % focal, high emph      % exp1_v16
+                1  0.8    1    0.75, ...    % nonfocal, low emph   % exp2_v11
+                1  0.9    1    0.83, ...    % nonfocal, high emph  % exp1_v16 -- sorta
+                4 4 4, ... % biases
+		0 0];      % noise -- no noise...
+        %}
+
+    % TODO figure out why the above params don't work; here we're faking it -- the low "cost" group is the focal, low emph condition; the high "cost" group is the focal, high emph condition
+    % also these don't quite repro the figures but it's close enough -- perhaps lower in the low emph condition
+
+    startpar = [1  0.35   1    0.3, ...      % focal, low emph     % exp1_v16, exp2_v19
                 1  0.6    1    0.4, ...    % focal, high emph      % exp1_v16
                 1  0.8    1    0.75, ...    % nonfocal, low emph   % exp2_v11
                 1  0.9    1    0.83, ...    % nonfocal, high emph  % exp1_v16 -- sorta

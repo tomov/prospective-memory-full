@@ -58,7 +58,6 @@ empirical_stats(:, SD_cols) = empirical_stats(:, SD_cols) / sqrt(subjects_per_co
 
 
 
-
 % ------------- calculate simulation stats
 
 simulation_stats = [];
